@@ -16,5 +16,5 @@ services:
     volumes:
       - /tmp/pg-data/:/var/lib/postgresql/data/
       - ./data/imdb_lecture.sql:/data/imdb_lecture.sql
-      - ./data/imdb_lecture.sql:/data/stops_lecture.sql
+      - ./data/stops_lecture.sql:/data/stops_lecture.sql
 
